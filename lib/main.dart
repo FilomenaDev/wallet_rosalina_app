@@ -44,6 +44,8 @@ class _MyHomePageState extends State<MyHomePage> {
         appBar: AppBar(
           title: Text("Teste"),
         ),
-        body: Center());
+        body: Center(
+          child: Text("Teste"),
+        ));
   }
 }
